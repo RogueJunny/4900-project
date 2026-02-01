@@ -4,7 +4,7 @@
 ## Table of contents
 * [Description](#description)
 * [Screenshots](#screenshots)
-* [Technology used](#techonology-used)
+* [Technology used](#technology-used)
 * [Planned Updates](#planned-updates)
 * [Credits](#credits)
 
@@ -31,4 +31,5 @@ This website exists to help Brooklyn College CIS students and faculty connect wi
 ## Credits
 * Junliang Lei (Student)
 * Sammy Sharif (Student)
-* Fendja Larivaux (Supervisor)
+* Fendja Larivaux (Project Supervisor)
+* Suraiya Mark (Previous Website Admin)
