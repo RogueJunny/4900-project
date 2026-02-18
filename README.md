@@ -16,9 +16,9 @@ This website exists to help Brooklyn College CIS students and faculty connect wi
 ![Website on 2/1/26](https://github.com/RogueJunny/4900-project/blob/main/screenshots/website_02012026.png)
 
 ## Technology used
-* WordPress
 * CUNY Academic Commons
-* Simple CSS
+* WordPress 6.9
+* CSS
 * GitHub
 
 ## Planned Updates
