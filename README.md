@@ -12,8 +12,8 @@
 This website exists to help Brooklyn College CIS students and faculty connect with each other.
 
 ## Screenshots
-### The website as of 2/1/26
-![Website on 2/1/26](https://github.com/RogueJunny/4900-project/blob/main/screenshots/website_02012026.png)
+### The website as of 2/27/26
+![Website on 2/1/26](https://github.com/RogueJunny/4900-project/blob/main/screenshots/website_02272026.png)
 
 ## Technology used
 * CUNY Academic Commons
