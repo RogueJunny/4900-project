@@ -1,0 +1,822 @@
+/*content block hidden margin and padding */
+
+.no-space {
+  margin: 0 !important;
+  padding: 0 !important;
+}
+
+/* heading text color */
+.heading-text-color {
+   color: #882346 !important;
+}
+
+/* yellow text color */
+.yellow-text {
+   color: #F3BD48;
+}
+
+
+/* header stuff */
+
+.site-logo-padding {
+  padding-left: 300px; 
+}
+/* clicking on header created a white box for a second */
+.site-logo-padding a:hover {
+  outline: none !important;
+  border: none !important;
+  -webkit-tap-highlight-color: transparent !important;
+}
+
+.head-row-padding {
+  padding-right: 100px  !important;
+  padding-top: 60px  !important;
+  min-width: fit-content !important;
+  box-sizing: content-box !important;
+}
+
+.header-text {
+  background-color: #000000 !important;
+  color: #ffffff !important;
+  font-size: 1.3rem;
+  
+}
+
+.header-text:hover {
+  background-color: #000000 !important;
+  transition: all 0.3s ease;
+
+}
+
+.header-text a:hover {
+  background-color: #000000 !important;  
+  color: #F3BD48 !important;    
+  text-decoration: none !important;  
+  border-bottom: none !important;        
+   outline: none !important;
+   -webkit-tap-highlight-color: transparent !important; 
+   transition: all 0.3s ease;
+
+}
+
+
+/* submenu text size change */
+.header-text .wp-block-navigation__submenu-container a {
+  font-size: 1rem !important;
+}
+
+
+/* menu for submenu that arrow icon */
+.wp-block-navigation__submenu-icon svg {
+  color: #F3BD48  !important;
+  fill: #F3BD48 !important;
+  stroke: #F3BD48 !important;
+}
+
+.wp-block-navigation-item:hover .wp-block-navigation__submenu-icon svg {
+  color: #882346 !important;
+  fill: #882346 !important;
+  stroke: #882346 !important;
+  background-color: transparent !important;
+  opacity: 1 !important;
+  transform: none !important;
+  rotate: 0deg !important;
+}
+
+.navigation-text {
+  display: flex !important;
+  flex-direction: row !important;
+  flex-wrap: nowrap !important;
+  align-items: center !important;
+  white-space: nowrap !important;
+}
+
+
+
+
+
+
+
+
+
+
+
+/* Base styles for all paragraph-navigation elements */
+.paragraph-navigation {
+  /* Prevent text wrapping */
+  white-space: nowrap;
+  padding-left: 215px !important;
+  
+  /* Base padding - REDUCED BOTTOM PADDING */
+  padding-top: 20px !important;
+}
+
+/* Link styles */
+.paragraph-navigation a {
+  color: #F3BD48;
+  text-decoration: none;
+  
+  /* MORE SPACE between links - INCREASED from 50px */
+  margin-right: 80px; /* Increased to 80px for more space */
+  
+  /* Smooth hover effect */
+  transition: color 0.3s ease-in-out;
+  
+  /* Remove focus outline/box when clicked */
+  outline: none !important;
+  box-shadow: none !important;
+}
+
+/* Remove margin from last link */
+.paragraph-navigation a:last-child {
+  margin-right: 0;
+}
+
+/* Hover effect */
+.paragraph-navigation a:hover {
+  color: #ffffff;
+}
+
+/* Remove focus styles for all states when clicked */
+.paragraph-navigation a:focus,
+.paragraph-navigation a:active,
+.paragraph-navigation a:focus-visible,
+.paragraph-navigation a:focus-within {
+  outline: none !important;
+  box-shadow: none !important;
+  background: transparent !important;
+  color: #F3BD48; /* Keep the original color when clicked */
+}
+
+/* Remove any default browser focus rings */
+.paragraph-navigation a::-moz-focus-inner {
+  border: 0 !important;
+}
+
+/* For mobile tap highlight */
+.paragraph-navigation a {
+  -webkit-tap-highlight-color: transparent !important;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Target the search block container */
+.wp-block-search {
+  position: relative !important;
+  display: flex !important;
+  align-items: center !important;
+  width: auto !important;
+  background: transparent !important;
+  gap: 0 !important;
+}
+
+/* Add magnifying glass emoji BEFORE the search text - EVEN SMALLER */
+.wp-block-search::before {
+  content: "🔍︎" !important;
+  font-size: 16px !important;
+  color: #ffffff !important;
+  background: transparent !important;
+  margin-right: 5px !important;
+  position: relative !important;
+  z-index: 5 !important;
+  order: 1 !important;
+}
+
+/* Style the label (Search text) - NOW 1rem */
+.wp-block-search__label {
+  color: #F3BD48 !important;
+  font-size: 1rem !important; /* Changed from 18px to 1rem */
+  font-weight: bold !important;
+  margin: 0 !important;
+  margin-right: 5px !important;
+  background: transparent !important;
+  white-space: nowrap !important;
+  position: relative !important;
+  z-index: 5 !important;
+  order: 2 !important;
+}
+
+/* Remove the old after element */
+.wp-block-search::after {
+  display: none !important;
+}
+
+/* Style the inside wrapper (contains input and button) - NO COLOR */
+.wp-block-search .wp-block-search__inside-wrapper {
+  display: flex !important;
+  align-items: center !important;
+  position: relative !important;
+  width: 0 !important;
+  opacity: 0 !important;
+  visibility: hidden !important;
+  transition: all 0.4s ease !important;
+  background: transparent !important;
+  border: none !important;
+  margin: 0 !important;
+  margin-left: 5px !important;
+  flex-shrink: 0 !important;
+  order: 3 !important;
+  box-shadow: none !important;
+}
+
+/* Show input wrapper on hover */
+.wp-block-search:hover .wp-block-search__inside-wrapper {
+  width: 400px !important;
+  opacity: 1 !important;
+  visibility: visible !important;
+}
+
+/* Style the input field - NO COLOR around the box */
+.wp-block-search__input {
+  width: 100% !important;
+  padding: 12px 60px 12px 20px !important;
+  border: 1px solid #ccc !important;
+  border-radius: 30px !important;
+  background: white !important;
+  font-size: 16px !important;
+  outline: none !important; /* Remove outline */
+  box-shadow: none !important;
+  height: 48px !important;
+  box-sizing: border-box !important;
+}
+
+/* Remove focus shadow/color and any black box */
+.wp-block-search__input:focus {
+  border: 1px solid #999 !important;
+  box-shadow: none !important;
+  outline: none !important; /* Ensure no outline on focus */
+}
+
+/* Style the button - INSIDE the search bar - BLACK BACKGROUND */
+.wp-block-search__button {
+  position: absolute !important;
+  right: 8px !important;
+  top: 50% !important;
+  transform: translateY(-50%) !important;
+  background: #000000 !important; /* Black background */
+  color: white !important;
+  border: none !important;
+  border-radius: 25px !important;
+  padding: 8px 20px !important;
+  margin: 0 !important;
+  cursor: pointer !important;
+  font-size: 15px !important;
+  font-weight: bold !important;
+  transition: none !important;
+  height: 36px !important;
+  line-height: 1 !important;
+  width: auto !important;
+  z-index: 10 !important;
+  outline: none !important;
+  -webkit-tap-highlight-color: transparent !important;
+}
+
+/* Remove focus outline when button is clicked/focused - KEEP BLACK BACKGROUND */
+.wp-block-search__button:focus,
+.wp-block-search__button:active,
+.wp-block-search__button:focus-visible,
+.wp-block-search__button:focus-within {
+  outline: none !important;
+  box-shadow: none !important;
+  border: none !important;
+  background: #000000 !important;
+  color: white !important;
+}
+
+/* Remove hover effect completely - KEEP BLACK BACKGROUND */
+.wp-block-search__button:hover {
+  background: #000000 !important;
+  color: white !important;
+  border: none !important;
+  outline: none !important;
+}
+
+/* Animation */
+@keyframes expandIn {
+  0% {
+    width: 0;
+    opacity: 0;
+  }
+  100% {
+    width: 400px !important;
+    opacity: 1;
+  }
+}
+
+.wp-block-search:hover .wp-block-search__inside-wrapper {
+  animation: expandIn 0.3s ease forwards !important;
+}
+
+/* Force the layout to be horizontal */
+.wp-block-search,
+.wp-block-search > *,
+.wp-block-search__inside-wrapper {
+  display: flex !important;
+  flex-direction: row !important;
+  flex-wrap: nowrap !important;
+}
+
+/* Reset any default positioning */
+.wp-block-search__inside-wrapper {
+  left: auto !important;
+  right: auto !important;
+  position: relative !important;
+}
+
+/* Remove any focus rings from all elements */
+.wp-block-search *:focus {
+  outline: none !important;
+  box-shadow: none !important;
+}
+
+
+
+
+
+/* home page image css */
+
+figure.full-width-image {
+    width: 100vw !important;
+    max-width: 100vw !important;
+    margin-left: calc(-50vw + 50%) !important;
+    margin-right: calc(-50vw + 50%) !important;
+    position: relative !important;
+    margin: 0 !important;
+    padding: 0 !important;
+}
+
+figure.full-width-image img {
+    width: 100% !important;
+    height: auto !important;
+    max-height: 825px !important; /* Adjust this value */
+    display: block !important;
+    object-fit: cover; /* This ensures it fills width while cropping height if needed */
+}
+
+
+
+
+
+
+
+
+
+.home-paragraph {
+  /* Large padding on left and right sides */
+  padding-left: 30% !important;
+  padding-right: 30% !important;
+}
+
+
+
+
+
+
+
+
+/* post css */
+
+
+/* Background for the Post Media section/container - RED only */
+.post-media-section {
+    background-image: url('https://i.imgur.com/2HWAQ4a.png');
+    background-size: cover;
+    background-position: center;
+    padding: 60px 30px 60px 30px; /* Much larger top/bottom padding */
+    border-radius: 0;
+}
+
+/* Background for individual posts - YELLOW only */
+.post-media-section .post {
+    background-image: url('https://i.imgur.com/oNsj5wK.png');
+    background-size: cover;
+    background-position: center;
+    border-radius: 25px;
+    padding: 20px 40px 20px 40px; /* Smaller padding inside posts */
+    margin-bottom: 30px;
+    box-shadow: 0 8px 20px rgba(0,0,0,0.25); /* DARKER shadow - more opacity, larger blur */
+    transition: all 0.3s ease;
+    border: 1px solid #e0e0e0; /* Slightly darker border to match shadow */
+    color: #1e1e1e;
+    max-width: 1200px; /* Slightly smaller max-width */
+    width: 90% !important; /* Slightly narrower */
+    margin-left: auto !important;
+    margin-right: auto !important;
+    position: relative;
+    overflow: hidden;
+}
+
+/* Make sure NO child elements have the same styles */
+.post-media-section .post * {
+    background: none !important;
+    border-radius: 0 !important;
+    box-shadow: none !important;
+    border: none !important;
+}
+
+/* Post title styling - only text styles */
+.post-media-section .post h2, 
+.post-media-section .post .entry-title {
+    color: #882346 !important;
+    border-bottom: 2px solid #882346 !important;
+    padding-bottom: 10px; /* Slightly smaller */
+    margin-bottom: 12px; /* Slightly smaller */
+    margin-top: 0;
+    background: none !important;
+    width: 100% !important;
+    max-width: 100% !important;
+    /* KEEP ORIGINAL FONT SIZE - removed the 1.8rem */
+}
+
+/* Meta styling - only text */
+.post-media-section .post .entry-meta {
+    color: #1e1e1e;
+    margin-bottom: 12px; /* Slightly smaller */
+    margin-top: 0;
+    background: none !important;
+    padding: 0 !important;
+    width: 100% !important;
+    /* KEEP ORIGINAL FONT SIZE - removed the 0.9rem */
+}
+
+/* Content styling - make it stretch */
+.post-media-section .post .entry-content,
+.post-media-section .post p,
+.post-media-section .post div {
+    width: 100% !important;
+    max-width: 100% !important;
+    margin-left: 0 !important;
+    margin-right: 0 !important;
+    /* KEEP ORIGINAL FONT SIZE - removed font-size and line-height */
+}
+
+/* Last paragraph in content - remove bottom margin */
+.post-media-section .post .entry-content p:last-child {
+    margin-bottom: 0 !important;
+}
+
+/* Hover effect - ONLY on the main post bubble - with DARKER shadow */
+.post-media-section .post:hover {
+    box-shadow: 0 15px 30px rgba(0,0,0,0.35); /* DARKER hover shadow */
+    transform: translateY(-3px);
+}
+
+/* Ensure nothing inside changes on hover */
+.post-media-section .post:hover * {
+    transform: none !important;
+    box-shadow: none !important;
+}
+
+/* this took an hour btw =========================================
+   FIX WORDPRESS ROW BLOCK META SPACING
+========================================= */
+
+/* Target the Row block */
+.post-media-section .wp-block-group.is-layout-flex {
+    justify-content: flex-start !important;
+    gap: 6px !important;
+    flex-wrap: nowrap !important;
+}
+
+/* Make all children inline-sized */
+.post-media-section .wp-block-group.is-layout-flex > * {
+    margin: 0 !important;
+    padding: 0 !important;
+    width: auto !important;
+    max-width: none !important;
+}
+
+/* Ensure text flows naturally */
+.post-media-section .wp-block-group.is-layout-flex p {
+    margin: 0 !important;
+}
+
+/* Remove bottom margin from the last post */
+.post-media-section .post:last-child {
+    margin-bottom: 0 !important;
+}
+
+/* Ensure the last post's content doesn't create extra space */
+.post-media-section .post:last-child .entry-content {
+    margin-bottom: 0 !important;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* change color and font for date and author */
+
+/* =========================================
+   TARGET ENTIRE POST GROUP - COLORS & FONT
+   EXCERPT KEEPS ORIGINAL FONT
+========================================= */
+
+/* Target everything inside the post group */
+.post-media-section .wp-block-group.post.is-layout-flow * {
+    color: #882346 !important;
+    font-family: "Franklin Gothic ATF", "Franklin Gothic", "Franklin Gothic Book", "Helvetica Neue", Helvetica, Arial, sans-serif !important;
+}
+
+/* EXCEPTIONS - Elements that should keep original colors AND original font */
+
+/* Keep post content paragraphs at original color (but use Franklin Gothic) */
+.post-media-section .wp-block-group.post.is-layout-flow .entry-content p,
+.post-media-section .wp-block-group.post.is-layout-flow .entry-content * {
+    color: #1e1e1e !important;
+    font-family: "Franklin Gothic ATF", "Franklin Gothic", "Franklin Gothic Book", "Helvetica Neue", Helvetica, Arial, sans-serif !important;
+}
+
+/* Keep EXCERPT blocks at original color AND ORIGINAL FONT */
+.post-media-section .wp-block-group.post.is-layout-flow .wp-block-post-excerpt,
+.post-media-section .wp-block-group.post.is-layout-flow .wp-block-post-excerpt *,
+.post-media-section .wp-block-group.post.is-layout-flow .wp-block-post-excerpt p,
+.post-media-section .wp-block-group.post.is-layout-flow .entry-excerpt,
+.post-media-section .wp-block-group.post.is-layout-flow .entry-excerpt * {
+    color: #1e1e1e !important;
+    font-family: inherit !important; /* This keeps the original theme font */
+}
+
+/* Keep post titles at their original color (but use Franklin Gothic) */
+.post-media-section .wp-block-group.post.is-layout-flow h2,
+.post-media-section .wp-block-group.post.is-layout-flow .entry-title {
+    color: #882346 !important;
+    border-bottom: 2px solid #882346 !important;
+    font-family: "Franklin Gothic ATF", "Franklin Gothic", "Franklin Gothic Book", "Helvetica Neue", Helvetica, Arial, sans-serif !important;
+}
+
+/* Keep hover effects */
+.post-media-section .wp-block-group.post.is-layout-flow time a:hover,
+.post-media-section .wp-block-group.post.is-layout-flow [datetime] a:hover,
+.post-media-section .wp-block-group.post.is-layout-flow .wp-block-post-author-name a:hover {
+    color: #6a1a38 !important;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*list block and the tittle needs padding at the top bug fix */
+.list-bug-fix-padding-title{
+   padding-top: 75px !important;
+
+}
+
+
+
+
+/* Make the list block sticky with background image box */
+.wp-block-list.sticky-jump-list {
+    position: -webkit-sticky;
+    position: sticky;
+    top: 50px;
+    float: right;
+    right: 20px;
+    max-width: 350px;
+    width: 350px; /* Explicit width for Firefox */
+    z-index: 999;
+    list-style: none;
+    margin: 0 20px 0 0;
+    padding: 20px;
+    background-image: url('https://i.imgur.com/2HWAQ4a.png');
+    background-repeat: repeat;
+    background-size: auto;
+    background-position: center;
+    border-radius: 4px;
+    text-align: center;
+    margin-top: 50px;
+    box-shadow: 0 10px 25px -5px rgba(0, 0, 0, 0.3), 
+                0 8px 10px -6px rgba(0, 0, 0, 0.2),
+                inset 0 -2px 5px rgba(0, 0, 0, 0.1),
+                inset 0 2px 5px rgba(255, 255, 255, 0.3);
+    border: 1px solid rgba(243, 189, 72, 0.2);
+    transition: box-shadow 0.3s ease, transform 0.3s ease;
+    
+    /* Remove any extra spacing */
+    line-height: 1.2;
+    
+    /* Firefox-specific fixes */
+    display: block; /* Ensure proper display */
+    clear: both; /* Prevent float issues */
+    box-sizing: border-box; /* Consistent box model */
+}
+
+/* TITLE */
+.wp-block-list.sticky-jump-list::before {
+    content: "On This Page";
+    display: block;
+    font-family: "Franklin Gothic ATF", "Franklin Gothic Medium", "Franklin Gothic", Arial, sans-serif;
+    font-size: 1.45rem;
+    font-weight: 700;
+    letter-spacing: 0.03em;
+    color: #F3BD48;
+    text-align: center;
+    margin-bottom: 16px;
+    padding-bottom: 10px;
+    width: 85%;
+    margin-left: auto;
+    margin-right: auto;
+    border-bottom: 3px solid #F3BD48;
+}
+
+/* Hover effect for box */
+.wp-block-list.sticky-jump-list:hover {
+    box-shadow: 0 20px 30px -8px rgba(0, 0, 0, 0.4), 
+                0 10px 15px -6px rgba(0, 0, 0, 0.3),
+                inset 0 -3px 8px rgba(0, 0, 0, 0.15),
+                inset 0 3px 8px rgba(255, 255, 255, 0.4);
+    transform: translateY(-2px);
+}
+
+/* Glow layer */
+.wp-block-list.sticky-jump-list::after {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    border-radius: 4px;
+    box-shadow: inset 0 0 20px rgba(243, 189, 72, 0.1);
+    pointer-events: none;
+    z-index: 1;
+}
+
+/* LINKS */
+.wp-block-list.sticky-jump-list a {
+    display: block;
+    padding: 6px 8px;
+    text-decoration: none;
+    color: #F3BD48;
+    font-size: 1.25rem;
+    line-height: 1.2;
+    text-align: center;
+    transition: color 0.2s ease,
+                transform 0.2s ease,
+                text-shadow 0.2s ease;
+    font-weight: 500;
+    opacity: 0.95;
+    border-right: none;
+    margin-bottom: 2px;
+    text-shadow: 0 1px 1px rgba(0,0,0,0.15);
+    outline: none;
+    font-family: "Franklin Gothic ATF", "Franklin Gothic Medium", "Franklin Gothic", Arial, sans-serif;
+}
+
+/* Accessibility focus */
+.wp-block-list.sticky-jump-list a:focus-visible {
+    outline: 2px solid #F3BD48;
+    outline-offset: 2px;
+    border-radius: 2px;
+}
+
+/* List items */
+.wp-block-list.sticky-jump-list li {
+    text-align: center;
+    width: 100%;
+    overflow: visible;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    line-height: 1.2;
+    
+    /* Remove any default list spacing */
+    margin-block-start: 0;
+    margin-block-end: 0;
+}
+
+/* HOVER LINKS — slightly bigger */
+.wp-block-list.sticky-jump-list a:hover {
+    color: #FFD66B;
+    transform: scale(1.06);
+    text-shadow: 0 2px 3px rgba(0,0,0,0.25);
+}
+
+/* Active */
+.wp-block-list.sticky-jump-list a:active {
+    transform: scale(1.03);
+}
+
+/* Paragraphs */
+.wp-block-list.sticky-jump-list p {
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    
+    /* Remove paragraph spacing */
+    margin-block-start: 0;
+    margin-block-end: 0;
+}
+
+/* Hide on mobile */
+@media (max-width: 768px) {
+    .wp-block-list.sticky-jump-list {
+        display: none;
+    }
+}
+
+/* Firefox-specific override using @supports */
+@supports (-moz-appearance: none) {
+    .wp-block-list.sticky-jump-list {
+        /* Reset any problematic values for Firefox */
+        margin-top: 50px !important;
+        position: sticky !important;
+        top: 50px !important;
+        
+        /* Force hardware acceleration */
+        transform: translateZ(0);
+        
+        /* Ensure proper containment */
+        contain: layout style paint;
+    }
+    
+    /* Fix for Firefox float/sticky interaction */
+    .wp-block-list.sticky-jump-list::before {
+        width: 100%;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+/* makes text look better */
+body {
+  -webkit-font-smoothing: antialiased !important;
+
+}
+
+
+
+/* Columns with this class will "stick" to the screen */
+.sticky-column {
+    position: sticky;
+    top: 100px;
+    align-self: flex-start;
+}
