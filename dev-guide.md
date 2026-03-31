@@ -28,6 +28,18 @@ Here's some official resources that you can look at before getting started.
 
 CUNY Academic Commons has over 200 plugins available for you to use on your website.
 
+The plugins we've used so far include:
+
+
+* [Advanced Excerpt](http://wordpress.org/plugins/advanced-excerpt/)
+* [Better Font Awesome](http://wordpress.org/plugins/better-font-awesome)
+* [Blog as PDF](https://rezehnde.com/)
+* [Contact Form 7](https://contactform7.com/)
+* [Popup Maker](https://wppopupmaker.com/?utm_campaign=plugin-info&utm_source=plugin-header&utm_medium=plugin-uri)
+* [WP Hide Post](http://scriptburn.com/wp-hide-post)
+* [Yet Another Related Posts Plugin (YARPP)](https://yarpp.com/)
+* [Yoast Duplicate Post](https://yoast.com/wordpress/plugins/duplicate-post/)
+
 To add more, send an email to commonshelpsite@gmail.com with the following information
 
 * The name of the plugin
