@@ -6,6 +6,7 @@
 * [Screenshots](#screenshots)
 * [Technology used](#technology-used)
 * [Planned Updates](#planned-updates)
+* [Other documentation](#other-documentation)
 * [Credits](#credits)
 
 ## Description
@@ -27,11 +28,14 @@ This website exists to help Brooklyn College CIS students and faculty connect wi
 * VS Code
 
 ## Planned Updates
-* More posts 📖
-* More faculty information 🧑‍🏫
-* Dark mode 🌙
-* Optimized mobile experience 📱
+* ✅ More posts 📖
+* ✅ More faculty information 🧑‍🏫
+* ✅ Optimized mobile experience 📱
 * **And more!**
+
+## Other documentation
+* [Project Tasks](https://github.com/RogueJunny/4900-project/blob/ae6c9e97404160b7d455db5801aaedcf2e1830f0/project-tasks.md)
+* [Resources](https://github.com/RogueJunny/4900-project/blob/ae6c9e97404160b7d455db5801aaedcf2e1830f0/resources.md)
 
 ## Credits
 * Junliang Lei (Student)
