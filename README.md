@@ -34,6 +34,7 @@ This website exists to help Brooklyn College CIS students and faculty connect wi
 * **And more!**
 
 ## Other documentation
+* [Developer Guide](https://github.com/RogueJunny/4900-project/blob/137d36a2d530a901a59af8816f16666e13658f31/dev-guide.md)
 * [Project Tasks](https://github.com/RogueJunny/4900-project/blob/ae6c9e97404160b7d455db5801aaedcf2e1830f0/project-tasks.md)
 * [Resources](https://github.com/RogueJunny/4900-project/blob/ae6c9e97404160b7d455db5801aaedcf2e1830f0/resources.md)
 
