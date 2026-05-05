@@ -8,6 +8,7 @@ This is a guide to help any future students who decide to continue this website
 * [Editing the website](#editing-the-website)
 * [CSS](#css)
 * [Plugins](#plugins)
+* [Further Reading](#further-reading)
 
 ## A brief introduction
 
@@ -92,3 +93,8 @@ To add more, send an email to commonshelpsite@gmail.com with the following infor
 ### A note about The Events Calendar
 
 This plugin doesn't work on its own, and it took me (Sammy) HOURS to find out what the problem was. Basically, you'll have to email the CUNY Academic Commons support team (commonshelpsite@gmail.com) and tell them to run some code on their end to get the calendar database running. Many other students have had this problem apparently, as seen in [this forum thread about the issue](https://redmine.gc.cuny.edu/issues/20863).
+
+## Further Reading
+
+* [Project Tasks](https://github.com/RogueJunny/4900-project/blob/ae6c9e97404160b7d455db5801aaedcf2e1830f0/project-tasks.md)
+* [Resources](https://github.com/RogueJunny/4900-project/blob/ae6c9e97404160b7d455db5801aaedcf2e1830f0/resources.md)
