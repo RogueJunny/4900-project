@@ -5,7 +5,8 @@ This is a guide to help any future students who decide to continue this website
 * [A brief introduction](#a-brief-introduction)
 * [Getting Started](#getting-started)
 * [Themes](#themes)
-* [Editing the website](#editing-the-website)
+* [Adding content to pages](#adding-content-to-pages)
+* [Editing your page](#editing-your-page)
 * [CSS](#css)
 * [Plugins](#plugins)
 * [Further Reading](#further-reading)
@@ -34,7 +35,7 @@ A theme in WordPress is a set of .php files that dictate what your website will 
 
 Whenever you make a new page, you will have the option to pick a preset pattern. For example, you can set up a "home" page or a "coming soon" page with a single click. The problem you'll come across very quickly is that these default pages never match the aesthetic of your website. You would either have to modify these pages heavily, or just create your page from scratch using the blocks you want, which is what we did.
 
-## Editing the website
+## Adding content to pages
 > You set up your theme, now how do you add content to your website?
 
 For our project, we used the block editor exclusively. You may have seen something similar used elsewhere. Basically, there are blocks with different functions (Paragraph, Image, Spacer, etc.), and you add them together in a hierarchy to create your website. You could use the classic editor and write the website in HTML, but that's too much work for no benefit.
@@ -58,10 +59,37 @@ You can import .otf files to your website to add new fonts. Here's how to import
 
 `Customize > Use Site Editor > Styles > Typography > Click any font > Upload`
 
+## Editing your page
+> You can change the visuals of each page using the "Customize" function
+
+At the top of each page is the "Customize" button. Pressing this button brings up a menu with the following options
+
+### Site Identity
+You can change the sites title, tagline, and favicon here
+
+### Homepage Settings
+You can change the homepage so it either displays the latest posts or acts as a static page
+
+### Simple CSS
+This is where you can add your custom CSS code to add new features to the website. I'm still not sure if the code you put on each page is seperate from the global CSS code on the CUNY Academic Commons dashboard.
+
 ## CSS
 > You can add custom CSS to add unique features to your website.
 
-[Coming Soon]
+Here's how to access the CSS file for your website:
+Dashboard > Appearance > Simple CSS
+
+The basic syntax of most of our CSS code is as follows:
+
+    .[CLASS_NAME] {
+      [DECLARATION_BLOCK]
+    }
+
+The "." at the beginning is a "class selector". Any objects with the matching class will follow the rules set by that code.
+
+To make the code work with a specific block on you web page, add the name of the class to the "ADDITIONAL CSS CLASS(ES)" text box in the "Advanced" section of the Settings tab.
+
+We recommend that you backup the .css file for easy version control
 
 ## Plugins
 > You can use the included plugins to add special features to your website.
